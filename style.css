@@ -1,0 +1,453 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+button{
+  outline: none !important;
+}
+
+.back-img-to-android{
+  background-image: url("images/back-img.png");
+  background-repeat: round;
+}
+
+
+.part-android{
+  min-height: 100vh;
+}
+
+.vertical-line{
+  border-right: 2px solid grey;
+}
+
+.part-iphone{
+  min-height: 100vh;
+}
+
+.android-border-phone{
+  margin: 0 auto;
+  height: 550px;
+  width: 310px;
+  border: 2px solid #959595;
+  border-radius: 38px;
+  box-shadow: 0px -1px 0px 2px #cccccc;
+  background-color: #d7e9eb;
+}
+
+.android-display{
+  height: 435px;
+  width: 92%;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 6px;
+}
+
+.circle{
+  float: right;
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.line-call{
+  height: 5px;
+  width: 46px;
+  background-color: black;
+  border-radius: 23%;
+  float: left;
+  margin-top: 2px;
+  margin-right: 19px;
+}
+
+.mini-circle{
+  height: 5px;
+  width: 5px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.flash-circle{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ffcb6e;
+  display: inline-block;
+  margin-left: 11px;
+  margin-bottom: 3px;
+}
+
+.logo-sumsung{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn-main-android{
+  width: 56px;
+  height: 17px;
+  border-radius: 22%;
+  background-color: #dbdbdb;
+  border: 1px solid;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 11px;
+}
+
+/*айфон*/
+
+.back-img-to-iphone{
+  background-image: url("images/back-img.png");
+  background-repeat: round;
+}
+
+.iphone-border-phone{
+  margin: 0 auto;
+  height: 550px;
+  width: 280px;
+  border: 2px solid #c4c4c4;
+  border-radius: 30px;
+  box-shadow: 0px -1px 0px 3px #959595;
+  background-color: #f6f6f6;
+}
+
+.top-circle-to-iphone{
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 0 auto;
+  margin-top: 14px;
+}
+
+.circle-iphone-next-to-the-line{
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: black;
+  display: inline-block;
+  margin-left: 16px;
+}
+
+.line-to-call-iphone{
+  height: 6px;
+  width: 42px;
+  border-radius: 19%;
+  background-color: black;
+  margin: 0 auto;
+  margin-top: 15px;
+  display: inline-block;
+  margin-left: 13px;
+}
+
+.iphone-display{
+  height: 424px;
+  width: 93%;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 4px;
+  box-shadow: 0px 0px 2px 0px;
+}
+
+.btn-iphone{
+  margin: 0 auto;
+  height: 37px;
+  width: 37px;
+  border: 3px solid #535353;
+  border-radius: 50%;
+  margin-top: 13px;
+  cursor: pointer;
+}
+
+@media (max-width: 365px) {
+  .android-border-phone{
+    margin-left: -41px;
+  }
+  .iphone-border-phone{
+    margin-left: -22px;
+  }
+}
+
+.part-top-disp-samsung{
+  color: white;
+  height: 20px;
+  background-color: #6496ff;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.part-to-show-messeges{
+  height: 379px;
+  width: 100%;
+}
+
+.keyboard {
+  vertical-align: bottom;
+  border-top: 1px solid #ccc;
+}
+
+.leter_ru {
+  font-size: 12px;
+  width: 21px;
+}
+
+.leter_en {
+  font-size: 12px;
+  width: 24px;
+}
+
+.leter_en_sift_del {
+  font-size: 12px;
+  width: 36px;
+}
+
+.leter_number {
+  font-size: 12px;
+  width: 23px;
+}
+
+.leter_number_1 {
+  font-size: 11px;
+  width: 49px;
+}
+
+.space {
+  width: 123px;
+}
+
+.top-keyboard {
+text-align: center;
+}
+
+.center-keyboard{
+  text-align: center;
+}
+
+.bottom-keyboard {
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.top-of-display-iphone{
+  height: 20px;
+  width: 100%;
+  background-color: rgb(202, 203, 209);
+  border-radius: 3px 3px 0 0;
+  background-color: rgb(111, 116, 255);
+  color: white;
+}
+
+.part-to-send-messege{
+  width: 100%;
+  height: 370px;
+}
+
+.btn-sent-messege{
+  cursor: pointer;
+  font-size: 17px;
+  margin-left: 4px;
+}
+
+.btn-paperclip{
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 8px;
+}
+
+.input-messege-background{
+  height: 32px;
+  width: 100%;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  background-color: rgba(51, 55, 176, 0.2);
+}
+
+.part-input{
+  margin: 0 auto;
+}
+
+.input-iphone{
+  width: 75%;
+  border-radius: 24px 24px 24px 24px;
+  border: 1px solid rgb(219, 219, 219);
+  margin-top: 4px;
+  margin-left: 4px;
+  outline:none;
+}
+
+.part-keyboard-iphone{
+  background-color: rgb(159, 198, 255);
+  width: 100%;
+  height: 133px;
+}
+
+.top-part-btns{
+  width: 100%;
+  height: 30px;
+}
+
+.secound-part-keyboard-btns{
+  width: 100%;
+  height: 30px;
+}
+
+.thirt-part-keyboard-btns{
+  width: 100%;
+  height: 30px;
+}
+
+.fouth-part-keyboard-btns{
+  width: 100%;
+  height: 30px;
+}
+
+.btns-in-keyboard{
+  display: inline-block;
+  background-color: white;
+  font-size: 17px;
+  border-radius: 17%;
+  height: 27px;
+  margin-top: 4px;
+  margin-left: 1px;
+  padding: 0px 3px 0px 3px;
+}
+
+.btns-in-keyboard-en{
+  display: inline-block;
+  background-color: white;
+  font-size: 17px;
+  border-radius: 17%;
+  height: 27px;
+  margin-top: 4px;
+  margin-left: 2px;
+  padding: 0px 3px 0px 3px;
+}
+
+.btns-in-keyboard-simbols{
+  display: inline-block;
+  background-color: white;
+  font-size: 17px;
+  border-radius: 17%;
+  height: 27px;
+  margin-top: 4px;
+  margin-left: 2px;
+  padding: 0px 4px 0px 4px;
+}
+
+.btns-in-keyboard-simbols-top-of-space{
+  background-color: white;
+  border-radius: 17%;
+  height: 25px;
+  margin-top: 4px;
+  margin-left: 1px;
+  padding: 0 10px 0px 10px;
+}
+
+.btn-plus-simbols{
+  background-color: #bababa;
+  padding: 0 0 0 0;
+  border-radius: 17%;
+  height: 25px;
+  margin-top: 4px;
+}
+
+.keyboard-icon-arrow-up{
+  font-size: 10px;
+}
+
+.keyboard-numbers-btn{
+  height: 25px;
+  font-size: 13px;
+  border-radius: 4px;
+  background-color: #bababa;
+}
+
+.btn-change-languege{
+  height: 25px;
+  font-size: 16px;
+  background-color: #bababa;
+}
+
+.btn-microphone{
+  height: 25px;
+  font-size: 14px;
+}
+
+.big-btn-keyboard{
+  font-size: 13px;
+  width: 112px;
+  height: 27px;
+  border-radius: 5px;
+}
+
+.btn-enter-keyboard{
+  font-size: 13px;
+  height: 27px;
+  border-radius: 5px;
+  background-color: #bababa;
+}
+
+.time-iphone{
+  margin-left: 19px;
+  font-size: 14px;
+}
+
+.batary{
+  font-size: 12px;
+  margin-left: 49px;
+}
+
+.color-btn-big-violet{
+  background-color: #6060ff;
+}
+
+.color-btn-big-white{
+  background-color: white;
+}
+
+.color-btn-big-grey{
+  background-color: #d5d5d5;
+}
+
+.btn-do-samsung-keyboard-hide{
+  padding: 6px 3px 6px 3px;
+  border-radius: 0 0 0 5px;
+}
+
+/* dobavila */
+ .overflow {
+   overflow-y: scroll;
+ }
+/* dobavila */
+.view_of_send_message {
+  font-style: oblique;
+  background-color: #00c500;
+  text-align: right;
+  position: relative;
+  border: 1px solid #666;
+  -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 1px 1px 2px #888;
+	-moz-box-shadow: 1px 1px 2px #888;
+}
+ /* dobavila */
+.view_of_send_message_for_samsung {
+  font-style: oblique;
+  background-color: #99ccff;;
+  text-align: left;
+	position: sticky;
+	border: 1px solid #666;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 1px 1px 2px #888;
+	-moz-box-shadow: 1px 1px 2px #888;
+}
