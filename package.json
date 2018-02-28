@@ -1,16 +1,17 @@
 {
-  "name": "todolist.com",
+  "name": "libraries",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.0.0",
-    "jquery": "^3.3.1"
-  },
-  "devDependencies": {},
-  "description": ""
+    "aos": "^2.2.0",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1"
+  }
 }
